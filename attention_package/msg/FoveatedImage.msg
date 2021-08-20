@@ -1,3 +1,0 @@
-sensor_msgs/Image foveated_image
-attention_package/Tuple bounding_box_origins
-attention_package/Tuple bounding_box_sizes

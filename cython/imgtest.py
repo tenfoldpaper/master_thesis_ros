@@ -71,6 +71,7 @@ rgb_list = rgb_points.tolist()
 print(time.time() - start)
 start = time.time()
 final_points = [(val[0][0], val[0][1], val[0][2], val[1]) for val in zip(xyz_list, rgb_list)]
+# seems like zip points converts it to list anyways, timing-wise
 #final_points = [(val[0][0], val[0][1], val[0][2], val[1]) for val in zip(xyz_points, rgb_points)]
 
 print(time.time() - start)

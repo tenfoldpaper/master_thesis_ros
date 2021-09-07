@@ -33,8 +33,10 @@ devel_isolated/
 CMakeLists.txt.user
 
 *.th
+*.trt
 *.onnx
-aff-seg/data
+aff-seg/data/
+aff-seg/cache/
 srv/_*.py
 *.pcd
 *.pyc
